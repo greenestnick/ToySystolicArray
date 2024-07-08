@@ -29,7 +29,7 @@ Now that the system is ready set the 'we' pin low and the 'ena' pin high. This e
     : Multiply-and-Accumulate unit that forms the Systolic Array when used in a grid
   
 - **MEM44**
-    : Simply addressable memory used to facilitate storing the matrix values and product results. These have a 4x4 structure of 8b words. Data is written one word at a time based on the address given. A whole row can be read out at once using MSB two bits in the address
+    : Simply addressable memory used to facilitate storing the matrix values and product results. These have a 4x4 structure of 8b words. Data is written one word at a time based on the address given. A whole column can be read out at once using the two LSBs in the address
 
 - **SA**
     : The full Systolic Array structure with control logic and component instantiation.
