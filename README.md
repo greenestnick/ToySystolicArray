@@ -1,3 +1,5 @@
+Full report found in SystolicArray.pdf
+
 ## Compilation and Use of HDL
 This was compiled and ran using Icarus Verilog (iverilog) but alternatives exist. The commands used are below.
 
